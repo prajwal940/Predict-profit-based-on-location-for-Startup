@@ -1,0 +1,95 @@
+
+<html>
+<body>
+    <table border=1>
+        {% for key,value in final.items() %}
+        <tr>
+            <th>{{key}}</th>
+            <td>{{value}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+ 
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+
+    <h2>Input Parameters</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Parameter</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>R&D Spend</td>
+                <td>{{ rd_spend }}</td>
+            </tr>
+            <tr>
+                <td>Administration</td>
+                <td>{{ administration }}</td>
+            </tr>
+            <tr>
+                <td>Marketing Spend</td>
+                <td>{{ marketing }}</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>{{ state }}</td>
+            </tr>
+<!--            <tr>-->
+<!--                <td>Result</td>-->
+<!--                <td>{{ result }}</td>-->
+<!--            </tr>-->
+<!--         </tbody>
+    </table>
+
+    <h2>Prediction Result</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ result }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html> -->
